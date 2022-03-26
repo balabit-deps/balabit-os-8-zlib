@@ -1,3 +1,14 @@
+zlib (1:1.2.11.dfsg-2ubuntu1.3) focal-security; urgency=medium
+
+  * SECURITY UPDATE: memory corruption when deflating
+    - debian/patches/CVE-2018-25032-1.patch: fix a bug that can crash
+      deflate on some input when using Z_FIXED in deflate.c, deflate.h.
+    - debian/patches/CVE-2018-25032-2.patch: assure that the number of bits
+      for deflatePrime() is valid in deflate.c.
+    - CVE-2018-25032
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Sat, 26 Mar 2022 14:20:54 -0400
+
 zlib (1:1.2.11.dfsg-2ubuntu1.2) focal; urgency=medium
 
   * Cherrypick update of s390x hw acceleration #410 pull request patch,
