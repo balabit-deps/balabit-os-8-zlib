@@ -1,3 +1,12 @@
+zlib (1:1.2.11.dfsg-2ubuntu1.4) focal; urgency=medium
+
+  * d/p/410-lp1961427.patch ported from zlib #410, fixing
+    compressBound() with hw acceleration. LP: #1961427
+    Thanks to Ilya Leoshkevich <iii@linux.ibm.com>.
+    In addition a patch is needed in htslib.
+
+ -- Frank Heimes <frank.heimes@canonical.com>  Thu, 21 Jul 2022 10:30:05 +0100
+
 zlib (1:1.2.11.dfsg-2ubuntu1.3) focal-security; urgency=medium
 
   * SECURITY UPDATE: memory corruption when deflating
