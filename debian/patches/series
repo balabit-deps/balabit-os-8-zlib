@@ -7,3 +7,5 @@ Permit-a-deflateParams-parameter-change-asap.patch
 CVE-2018-25032-1.patch
 CVE-2018-25032-2.patch
 410-lp1961427.patch
+CVE-2022-37434-1.patch
+CVE-2022-37434-2.patch
